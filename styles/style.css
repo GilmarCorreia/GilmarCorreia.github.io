@@ -1,0 +1,46 @@
+@charset "utf-8";
+#header {
+	height: 477px;
+	width: 101vw;
+}
+
+#header h1 {
+	font-family: "Adobe Naskh Medium";
+	font-style: normal;
+	font-size: 90px;
+	font-weight: lighter;
+	text-align: center;
+	vertical-align: top;
+	white-space: normal;
+	line-height: 45px;
+	color: #FFFFFF;
+	position: relative;
+	z-index: 100;
+}
+#header img {
+	width: 101vw;
+	height: 369px;
+	margin-left: -1vw;
+	margin-top: -5vw;
+	position: absolute;
+	opacity: 0.46;
+	object-position: center;
+	z-index: 99;
+	object-fit: cover; 
+	-webkit-filter: blur(3px);
+  	-moz-filter: blur(3px);
+  	-o-filter: blur(3px);
+  	-ms-filter: blur(3px);
+  	filter: blur(3px);
+}
+
+#rect {
+	width:101vw;
+	height:477px;
+	background-color: #211A2B;
+	margin-left: -1vw;
+	margin-top: -3vw;
+	position: absolute;
+	z-index: 98;
+	object-fit: fill;
+}
